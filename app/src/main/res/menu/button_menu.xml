@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+>
+<item android:id="@+id/actionEarthlink"
+      android:enabled="true"
+      android:title="Earthlink"
+      android:icon="@drawable/ic_tower"
+      app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/actionJazeera"
+          android:enabled="true"
+          android:title="Jazeera"
+          android:icon="@drawable/ic_tower"
+          app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/actionHrins"
+          android:enabled="true"
+          android:title="Hrins"
+          android:icon="@drawable/ic_tower"
+          app:showAsAction="ifRoom"/>
+</menu>
